@@ -1,0 +1,28 @@
+{
+  "state": "AZ",
+  "year": "1995",
+  "timestamp": "20261012_071953",
+  "total_records": 1,
+  "records": [
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "middle_name": "A",
+      "full_name": "John A Doe",
+      "address": "123 Main St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85001",
+      "phone": "(555) 000-0000",
+      "ssn": "***-**-1234",
+      "dob": "01/01/1995",
+      "dob_month": "01",
+      "dob_day": "01",
+      "dob_year": "1995",
+      "email": "johndoe1fc@example.com",
+      "email_token": "token_example_hash"
+    }
+  ],
+  "result_table": "Name Address City State Zip Phone SSN DOB\nJohn A Doe 123 Main St Phoenix AZ 85001 (555) 000-0000 ***-**-1234 01/01/1995"
+}

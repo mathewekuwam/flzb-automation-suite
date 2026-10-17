@@ -1,0 +1,109 @@
+# =====================================================================
+# Git Ignore - FLZB Automation Suite
+# =====================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & local secrets
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Local credentials & generated database
+inboxes.json
+!inboxes.example.json
+
+# Browser user data & profiles cache (prevents uploading gigabytes of Chrome cache & cookies)
+profiles/**/chrome-data/
+profiles/**/Default/
+profiles/**/Cache*
+profiles/**/Network*
+profiles/**/Local Storage/
+profiles/**/Session Storage/
+profiles/**/IndexedDB/
+profiles/**/*.sqlite*
+profiles/**/Preferences
+profiles/**/Local State
+
+# Logs and runtime scrape data (contains private & sensitive data)
+logs/**/*.json
+!logs/sample_results.json
+!logs/**/.gitkeep
+AutoSignup/results.json
+!AutoSignup/results.example.json
+!AutoSignup/**/.gitkeep
+data/*.json
+!data/**/.gitkeep
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Output debug screenshots and artifacts
+*.png
+*.jpg
+*.jpeg
+*.log

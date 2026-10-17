@@ -1,0 +1,12 @@
+[
+  {
+    "email": "user@example.com",
+    "first_name": "John",
+    "last_name": "Doe",
+    "dob": "01/01/1995",
+    "ssn": "***-**-1234",
+    "status": "signed up",
+    "url": "https://studentaid.gov/fsa-id/create-account/mobile-phone-number",
+    "time": "2026-10-12T06:56:02"
+  }
+]
